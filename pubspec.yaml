@@ -1,0 +1,54 @@
+name: taskappfirebase
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  firebase_auth: ^4.12.1
+  firebase_core: ^2.21.0
+  google_fonts: ^6.1.0
+  liquid_swipe: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+  flutter_otp_text_field: ^1.1.1
+  flutter: 
+    sdk: flutter
+  line_awesome_flutter: ^2.0.0
+  cloud_firestore: ^4.13.0
+  geolocator: ^10.1.0
+  fluttertoast: ^8.2.4
+  geocoding: ^2.1.1
+  flutter_slidable: ^3.0.1
+  uuid: ^4.2.1
+  image_picker: ^1.0.4
+  firebase_storage: ^11.5.1
+  otp_text_field: ^1.1.3
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/img/fbb.jpg
+    - assets/img/google.webp
+    - assets/img/profile.avif
+    - assets/img/by.jpg
+    - assets/img/sn.jpg
+    - assets/img/sn1.jpg
+    - assets/img/sn2.jpg
+    - assets/img/signup.jpg
+    - assets/img/tt.png
+    - assets/img/image-1.avif
+    - assets/img/location.jpg
+    - assets/img/location1.png
+    - assets/img/avathar.jpg
+
+
+
