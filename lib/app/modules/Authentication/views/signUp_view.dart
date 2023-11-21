@@ -112,7 +112,7 @@ class SignUpScreen extends StatelessWidget {
                 height: 10,
               ),
               RichText(
-                  text: TextSpan(
+                text: TextSpan(
                 recognizer: TapGestureRecognizer()..onTap = () => Get.back(),
                 text: "Have an account?",
                 style: TextStyle(color: Colors.grey[500], fontSize: 18),
@@ -121,7 +121,7 @@ class SignUpScreen extends StatelessWidget {
                 height: 10,
               ),
               RichText(
-                  text: TextSpan(
+                text: TextSpan(
                 recognizer: TapGestureRecognizer()..onTap = () => Get.back(),
                 text: "Sign up using one of the following methods",
                 style: TextStyle(color: Colors.grey[500], fontSize: 13),

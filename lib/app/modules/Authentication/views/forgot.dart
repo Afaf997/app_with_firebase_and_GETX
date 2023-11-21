@@ -23,9 +23,7 @@ class ForgotPssWord extends StatelessWidget {
           
           child: Column(
             children: [
-                Container(
-              width: wt,
-              height:ht*0.3,
+                Container(width: wt,height:ht*0.3,
               decoration: const BoxDecoration(
                 image:DecorationImage(image:AssetImage("assets/img/signup.jpg"),
                 fit: BoxFit.cover)

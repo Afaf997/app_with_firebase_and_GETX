@@ -14,7 +14,7 @@ void main() async{
 await Firebase.initializeApp().then((value) => Get.put(AuthController()));
   runApp(
     GetMaterialApp(
-      debugShowCheckedModeBanner: false,//
+      debugShowCheckedModeBanner: false,
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
