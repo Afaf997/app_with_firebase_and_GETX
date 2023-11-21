@@ -10,8 +10,7 @@ import 'package:taskappfirebase/app/modules/profile/functions/text_field.dart';
 class ForgotPssWord extends StatelessWidget {
   ForgotPssWord({super.key});
     final  AuthController authController  =Get.put(AuthController());
-
-  final emailforgotcontroller = TextEditingController();
+    final emailforgotcontroller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {

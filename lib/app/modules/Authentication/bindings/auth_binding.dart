@@ -9,13 +9,13 @@ class HomeBinding extends Bindings {
   @override
   void dependencies() {
     Get.put(AuthController());
-    // Get.put(UserDeatailsController());
-    // Get.put(StudentController());
-    // Get.put(UserDeatailsController());
-    // Get.put(LocationController());
-    //  Get.lazyPut(() => AuthController());
-    // Get.lazyPut(() => UserDeatailsController());
-    // Get.lazyPut(() => StudentController());
-    // Get.lazyPut(() => LocationController());
+    Get.put(UserDeatailsController());
+    Get.put(StudentController());
+    Get.put(UserDeatailsController());
+    Get.put(LocationController());
+     Get.lazyPut(() => AuthController());
+    Get.lazyPut(() => UserDeatailsController());
+    Get.lazyPut(() => StudentController());
+    Get.lazyPut(() => LocationController());
   }
 }
