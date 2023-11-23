@@ -9,7 +9,6 @@ import 'package:taskappfirebase/app/modules/Authentication/views/login_view.dart
 // ignore: must_be_immutable
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({Key? key, this.isEditing = false, this.student}): super(key: key);
-  // final UserDeatailsController userController = Get.find<UserDeatailsController>();
   final  UserDeatailsController userController  =Get.put(UserDeatailsController());
   String imageUrl = '';
   String selectFileName = '';

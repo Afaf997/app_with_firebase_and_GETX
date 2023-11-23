@@ -8,8 +8,6 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 
 class AllstudentDetails extends StatelessWidget {
   AllstudentDetails({Key? key}) : super(key: key);
-
-  // final StudentController studentController = Get.find<StudentController>();
   final  StudentController studentController =Get.put(StudentController());
   @override
   Widget build(BuildContext context) {

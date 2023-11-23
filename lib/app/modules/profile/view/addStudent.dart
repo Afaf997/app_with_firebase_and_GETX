@@ -9,10 +9,8 @@ import 'package:taskappfirebase/app/modules/profile/functions/text_field.dart';
 // ignore: must_be_immutable
 class AddStudentScreen extends StatelessWidget {
   AddStudentScreen({super.key, this.isEditing = false, this.student});
-  // final LocationController locationController=Get.find<LocationController>();
    final  StudentController studentController =Get.put(StudentController());
   final  LocationController locationController =Get.put(LocationController());
-  // final StudentController studentController = Get.find<StudentController>();
   User? currentUser = FirebaseAuth.instance.currentUser;
 
   TextEditingController nameController = TextEditingController();

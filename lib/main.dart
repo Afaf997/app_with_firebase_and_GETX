@@ -24,3 +24,5 @@ await Firebase.initializeApp().then((value) => Get.put(AuthController()));
     ),
   );
 }
+
+
