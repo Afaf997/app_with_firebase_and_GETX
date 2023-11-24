@@ -71,13 +71,13 @@ const  SizedBox(height: 30, ),
                                     );
                                   }
                                   var user =snapshot.data?.docs.isNotEmpty ?? false
-                                          ? snapshot.data!.docs[0].data(): null;
+                                  ? snapshot.data!.docs[0].data(): null;
                                   var imageUrl =(user as Map<String, dynamic>?)?['image'];
                                   return ClipRRect(
                                     borderRadius: BorderRadius.circular(100),
                                     child: imageUrl != null? Image.network(imageUrl,width: 90,
-                                            height: 90,
-                                            fit: BoxFit.cover,
+                                    height: 90,
+                                    fit: BoxFit.cover,
                                           )
                                         :const CircleAvatar(
                                             radius: 45,
