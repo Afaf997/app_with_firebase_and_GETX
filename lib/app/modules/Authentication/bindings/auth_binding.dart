@@ -13,7 +13,7 @@ class HomeBinding extends Bindings {
     Get.put(StudentController());
     Get.put(UserDeatailsController());
     Get.put(LocationController());
-     Get.lazyPut(() => AuthController());
+    Get.lazyPut(() => AuthController());
     Get.lazyPut(() => UserDeatailsController());
     Get.lazyPut(() => StudentController());
     Get.lazyPut(() => LocationController());
