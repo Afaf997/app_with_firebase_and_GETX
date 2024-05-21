@@ -12,7 +12,7 @@ class UserDeatailsController extends GetxController {
   try {
     isLoading.value = true;
     var snapshot = await FirebaseFirestore.instance
-        .collection('User_Details')//changed here 
+        .collection('User_Details') 
         .where('userId', isEqualTo: currentUser!.uid)
         .get();
     

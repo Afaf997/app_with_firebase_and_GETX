@@ -17,10 +17,9 @@ Container buildInputContainer({
           spreadRadius: 7,
           color: Colors.grey.withOpacity(0.2),
         ),
-      ],
-    ),
+      ],),
     child: TextFormField(
-       obscureText: isPassword, // Set obscureText for password field
+       obscureText: isPassword, 
       keyboardType: isPassword
           ? TextInputType.visiblePassword
           : TextInputType.text,
